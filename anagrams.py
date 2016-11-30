@@ -70,6 +70,7 @@ def main(argv):
     for word in f:
         anagrams.add(word.rstrip())
     f.close()
+    # A helper to format the values in the dict
     anagrams.sortLists()
     # Offline step ends
 
